@@ -303,18 +303,4 @@ font pango:scientifica 8
 #client.focused_inactive $bg     $bg         $ac     $id
 #client.urgent           $rd     $rd         $tx     $id
 
-#exec --no-startup-id gnome-settings-daemon
-#exec --no-startup-id nm-applet
-#exec --no-startup-id pa-applet
-#exec --no-startup-id /home/nehpe/Downloads/whatpulse
-#exec --no-startup-id feh --bg-fill /home/nehpe/Backgrounds/3840x2160/1436946809501.png
-#exec --no-startup-id synapse
-#exec --no-startup-id xrandr --output DisplayPort-0 --auto
-#exec --no-startup-id xrandr --output DVI-1 --left-of DisplayPort-0
-#exec xautolock -time 15 -locker 'i3lock -d -i /home/nehpe/Backgrounds/3840x2160/1442176215338.png' &
-
-#exec --no-startup-id compton -b --vsync opengl
 exec --no-startup-id compton --config ~/.compton.conf
-#exec --no-startup-id dropbox
-#exec --no-startup-id /usr/bin/pasystray
-#exec --no-startup-id /usr/bin/selfspy -c ~/.config/selfspy.conf -
