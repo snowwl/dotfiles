@@ -1,6 +1,6 @@
+set shell=bash
 let mapleader=","
-
-set t_Co=257
+set t_Co=256
 set gfn=Cascadia\ Code\ 14
 set go=
 
@@ -67,6 +67,7 @@ set termguicolors
 colorscheme synthwave
 
 set backspace=indent,eol,start
+set clipboard=unnamedplus,unnamed,autoselect,exclude:cons\|linux
 set expandtab
 set tabstop=4
 set softtabstop=4
